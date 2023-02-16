@@ -38,14 +38,22 @@ hr{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     margin-top: 60px;
+    cursor: pointer;
+}
+
+.school-univ-name-box img{
+    float: left;
+    margin-top: 2px;
+    margin-right: 10px;
 }
 
 .school-univ-name{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
-    width: 124px;
+    width: 150px;
     height: 16px;
+    margin-top: 10px;
     color: #6D4D0B;
 }
 
@@ -65,6 +73,9 @@ hr{
 #school-page-btn img{
     width: 30px;
     height: 30px;
+}
+#school-page-btn img:hover{
+    cursor: pointer;
 }
 
 .line-bottom{
