@@ -3,11 +3,11 @@
     margin: 0;
     text-align: center;
 }
-/* @media(min-width:390px){
+@media(min-width:390px){
     body{
         background-color: #D9C08C;
     }
-} */
+}
 #intro{
     background-color: #D9C08C;
     width: 390px;
