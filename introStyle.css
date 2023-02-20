@@ -3,11 +3,16 @@
     margin: 0;
     text-align: center;
 }
-
+/* @media(min-width:390px){
+    body{
+        background-color: #D9C08C;
+    }
+} */
 #intro{
     background-color: #D9C08C;
     width: 390px;
     height: 844px;
+    margin: 0 auto;
 }
 
 hr{
@@ -22,16 +27,21 @@ hr{
 #intro-main-img{
     float: left;
     position: relative;
+
 }
 #intro-main-img #main{
     width: 180px;
     height: 180px;
     /* position: absolute; */
+    padding-top: 30px;
+    padding-left: 105px;
+    padding-bottom: 21px;
 }
 #intro-main-img #blossom{
     width: 390px;
     height: 300px;
     position: absolute;
+    margin-left: 10px;
 }
 /*위에 있는 설명*/ 
 #intro-explain-top{
